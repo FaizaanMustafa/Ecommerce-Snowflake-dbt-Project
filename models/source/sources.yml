@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: 'snowflake_source'
+    database: db_ecomm
+    schema: raw
+    tables:
+        - name: raw_customers
+        - name: raw_orders
+        - name: raw_payments
